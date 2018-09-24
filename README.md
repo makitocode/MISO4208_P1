@@ -35,4 +35,6 @@ De igual forma, la plataforma web permite a sus usuarios que los estudiantes opi
 ![losestudiantes](assets/AntennaPod.png)
 ![losestudiantes](assets/AntennaPod2.png)
 
-## Tipos de pruebas
+## Tipos de prueba
+
+## Pruebas sobre la aplicación Web
