@@ -94,7 +94,6 @@ Ejecutar la prueba haciendo clic en "Run all specs" o en el archivo `losestudian
 
 ![prueba automatica cypress](assets/atweb.gif)
 
-
 ## Aplicación Movil
 
 Se instala la aplicación finalmente en el emulador directamente accediendo al apk desde el sitio web `https://f-droid.org/en/packages/de.danoeh.antennapod/` ya que desde la tienda Google play no era accesible la aplicación y mostraba el mensaje de incompatibilidad para descargar la aplicación.
