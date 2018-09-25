@@ -93,3 +93,16 @@ Una vez abierto cypres (UI), seleccionar la ubicación donde se encuentra el arc
 Ejecutar la prueba haciendo clic en "Run all specs" o en el archivo `losestudiantes.spec.js`
 
 ![prueba automatica cypress](assets/atweb.gif)
+
+
+## Aplicación Movil
+
+Se instala la aplicación finalmente en el emulador directamente accediendo al apk desde el sitio web `https://f-droid.org/en/packages/de.danoeh.antennapod/` ya que desde la tienda Google play no era accesible la aplicación y mostraba el mensaje de incompatibilidad para descargar la aplicación.
+
+Se procede a instalar el apk con el comando adb install
+    $adb install MISO_4208_P1/movil/de.danoeh.antennapod_1060595.apk
+
+Se ejecuta la prueba con el monkey
+    $adb shell monkey -p de.danoeh.antennapod -v 1000 -s 100
+
+![appmovil](movil/assets/antennaPod.png)
