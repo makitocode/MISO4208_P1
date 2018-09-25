@@ -35,6 +35,37 @@ De igual forma, la plataforma web permite a sus usuarios que los estudiantes opi
 ![losestudiantes](assets/AntennaPod.png)
 ![losestudiantes](assets/AntennaPod2.png)
 
-## Tipos de prueba
+## Niveles de pruebas
 
-## Pruebas sobre la aplicación Web
+Las pruebas a realizar sobre las aplicaciones (Web y movil) se realizarán a nivel de sistema y aceptación, es decir, se probarán la aplicación como un todo, como un sistema, ambas aplicaciones ya están desarrolladas y finalizadas. Adicionalmente, se realizará
+
+### Sistema
+
+**Manuales**
+Las pruebas manuales se realizarán en la medida en que se vaya explorando y descubriendo las distintas funcionalidades de la aplicación móvil, ya que las aplciación Web ya se tiene conocimiento y se reusarán elementos ya presentes para la construcción de la herramienta de prueba automáticas
+
+**Funcionales**
+Las pruebas realizadas sobre funciones específicas de la aplicación, representarán los casos de uso a realizar tanto en el app movil como en la aplicación web.
+
+**Automatizadas**
+Las pruebas automatizadas serán realizadas con las herramientas:
+
+1. Web los estudiantes:
+
+   Debido al tiempo y a recursos en máquina y personal, se decide por facilidad, eficacia y tiempo, realizar las pruebas con Cypress debido a su integración sencilla y el reuso adecuado de un componente previamente desarrollado para el mismo sitio web.
+
+2. App móvil AnntenaPod:
+   El mayor esfuerzo en términos de tiempos y recursos máquina e ingeniero será usado para realizar las pruebas automáticas para la aplicación móvil con monkey testing para android.
+
+## Aceptación
+
+Se realizarán las pruebas sobre las aplicaciones en entornos reales según casos uso descubiertos durante la fase exploratoria. 
+
+**Funcionales**
+Pruebas realizadas en la fase exploratoria que determinarán los casos de uso a realizar en la construcción de las pruebas automatizadas.
+
+**Automatizadas**
+Se realizarán pruebas automatizadas con las siguientes herramientas
+
+1. App movil AnntenaPdod:
+   Se realizarán pruebas automatizadas sobre los casos de uso de búsqueda y suscripción a un nuevo podcast de audio según texto ingresado en la caja de búsqueda. Estos casos de pruebas se realizarán con calabash y se usará cucumber para la descripción de cada uno de los casos de prueba.
