@@ -70,13 +70,12 @@ Se realizarán pruebas automatizadas con las siguientes herramientas
 1. App movil AnntenaPdod:
    Se realizarán pruebas automatizadas sobre los casos de uso de búsqueda y suscripción a un nuevo podcast de audio según texto ingresado en la caja de búsqueda. Estos casos de pruebas se realizarán con calabash y se usará cucumber para la descripción de cada uno de los casos de prueba.
 
-----
-
-# Pruebas automáticas de la aplicación Web
+--
+## Aplicación Web
 
 Se realiza la implementación de las pruebas sobre la aplicación web de [losestudiantes](https://losestudiantes.co) utilizando la herramienta  de [Cypress](https:cypress.io) por su facilidad y fácil implementación a la hora de realizar pruebas automáticas del sistema.
 
-## Ejecutar las pruebas
+### Ejecutar las pruebas
 
 Situarse en el directorio 'web/'
 

@@ -19,6 +19,3 @@ Una vez abierto cypres (UI), seleccionar la ubicación donde se encuentra el arc
 Ejecutar la prueba haciendo clic en "Run all specs" o en el archivo `losestudiantes.spec.js`
 
 ![prueba automatica cypress](assets/atweb.gif)
-
-
-
